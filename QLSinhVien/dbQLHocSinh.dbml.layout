@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="dbQLSinhVien">
+  <DataContextMoniker Name="/dbQLSinhVienDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f2b8f917-7500-492a-b6af-acf19ddd9820" absoluteBounds="3.5, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/dbQLSinhVienDataContext/HocSinh" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d2fc9c6d-8c89-462c-a2a4-93f24576fcc0" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cbee7841-264f-4849-b81e-09b28a35b6c6" absoluteBounds="0.75, 1.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/dbQLSinhVienDataContext/Lop" />
+      <nestedChildShapes>
+        <elementListCompartment Id="34f224a4-a62c-4c1a-8617-b1cf11036c7d" absoluteBounds="0.765, 1.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.94314697265625); (3.5 : 1.94314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbQLSinhVienDataContext/Lop/Lop_HocSinh" />
+      <nodes>
+        <classShapeMoniker Id="cbee7841-264f-4849-b81e-09b28a35b6c6" />
+        <classShapeMoniker Id="f2b8f917-7500-492a-b6af-acf19ddd9820" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
